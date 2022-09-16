@@ -13,7 +13,7 @@ namespace Proyecto_Hotel.Conexion
         SqlConnection conex = new SqlConnection();
 
         static String servidor = "localhost";
-        static String bd = "banco";
+        static String bd = "hotelbd";
         static String usuario = "sa";
         static String pass = "123";
         static String port = "1433";
@@ -27,11 +27,10 @@ namespace Proyecto_Hotel.Conexion
             {
                 conex.ConnectionString = cadena_conex;
                 conex.Open();
-                MessageBox.Show("Solo nos falta diseño, ingreso de datos, etc :´(");
             }
-            catch (SqlException)
+            catch (SqlException ex)
             {
-                MessageBox.Show("suerte la proxima");
+                MessageBox.Show(ex.Message);
             }
 
             return conex;
