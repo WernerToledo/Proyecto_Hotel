@@ -47,10 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Categoria.cs" />
+    <Compile Include="Classes\Cliente.cs" />
     <Compile Include="Classes\Empleado.cs" />
     <Compile Include="Classes\Habitacion.cs" />
     <Compile Include="Classes\Hotel.cs" />
     <Compile Include="Classes\Pais.cs" />
+    <Compile Include="Classes\Reserva.cs" />
     <Compile Include="Classes\Tipo_habitacion.cs" />
     <Compile Include="Conexion\Conexion.cs" />
     <Compile Include="Form1.cs">
