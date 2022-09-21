@@ -35,6 +35,9 @@
             this.textBox_name = new System.Windows.Forms.TextBox();
             this.textBox_tel = new System.Windows.Forms.TextBox();
             this.textBox_direcc = new System.Windows.Forms.TextBox();
+            this.dgv_Empleado = new System.Windows.Forms.DataGridView();
+            this.butt_consulta = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Empleado)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -95,11 +98,33 @@
             this.textBox_direcc.Size = new System.Drawing.Size(100, 22);
             this.textBox_direcc.TabIndex = 2;
             // 
+            // dgv_Empleado
+            // 
+            this.dgv_Empleado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Empleado.Location = new System.Drawing.Point(480, 52);
+            this.dgv_Empleado.Name = "dgv_Empleado";
+            this.dgv_Empleado.RowHeadersWidth = 51;
+            this.dgv_Empleado.RowTemplate.Height = 24;
+            this.dgv_Empleado.Size = new System.Drawing.Size(463, 311);
+            this.dgv_Empleado.TabIndex = 5;
+            // 
+            // butt_consulta
+            // 
+            this.butt_consulta.Location = new System.Drawing.Point(319, 220);
+            this.butt_consulta.Name = "butt_consulta";
+            this.butt_consulta.Size = new System.Drawing.Size(75, 40);
+            this.butt_consulta.TabIndex = 6;
+            this.butt_consulta.Text = "Consulta";
+            this.butt_consulta.UseVisualStyleBackColor = true;
+            this.butt_consulta.Click += new System.EventHandler(this.butt_consulta_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(512, 296);
+            this.ClientSize = new System.Drawing.Size(961, 399);
+            this.Controls.Add(this.butt_consulta);
+            this.Controls.Add(this.dgv_Empleado);
             this.Controls.Add(this.textBox_direcc);
             this.Controls.Add(this.textBox_tel);
             this.Controls.Add(this.textBox_name);
@@ -109,6 +134,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Empleado)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,6 +149,8 @@
         private System.Windows.Forms.TextBox textBox_name;
         private System.Windows.Forms.TextBox textBox_tel;
         private System.Windows.Forms.TextBox textBox_direcc;
+        private System.Windows.Forms.DataGridView dgv_Empleado;
+        private System.Windows.Forms.Button butt_consulta;
     }
 }
 

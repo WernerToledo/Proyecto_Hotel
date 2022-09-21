@@ -13,5 +13,11 @@ namespace Proyecto_Hotel.query
                 "values('{0}', '{1}', '{2}');";
             return query;
         }
+
+        public String cosulta_empleados()
+        {
+            String query = "select * from empleado;";
+            return query;
+        }
     }
 }
