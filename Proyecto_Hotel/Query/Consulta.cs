@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Proyecto_Hotel.query
+namespace Proyecto_Hotel.Query
 {
-    internal class query
+    internal class Consulta
     {
         public String agg_empleado() {
             String query = "INSERT INTO empleado(nombre, direccion, telefono) " +

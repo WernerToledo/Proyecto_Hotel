@@ -3,9 +3,9 @@ C:\Users\Alejandro\Desktop\3 año\6 ciclo\ATISF\Proyecto_Hotel\Proyecto_Hotel\bi
 C:\Users\Alejandro\Desktop\3 año\6 ciclo\ATISF\Proyecto_Hotel\Proyecto_Hotel\bin\Debug\Proyecto_Hotel.pdb
 C:\Users\Alejandro\Desktop\3 año\6 ciclo\ATISF\Proyecto_Hotel\Proyecto_Hotel\obj\Debug\Proyecto_Hotel.csproj.AssemblyReference.cache
 C:\Users\Alejandro\Desktop\3 año\6 ciclo\ATISF\Proyecto_Hotel\Proyecto_Hotel\obj\Debug\Proyecto_Hotel.csproj.SuggestedBindingRedirects.cache
-C:\Users\Alejandro\Desktop\3 año\6 ciclo\ATISF\Proyecto_Hotel\Proyecto_Hotel\obj\Debug\Proyecto_Hotel.Form1.resources
 C:\Users\Alejandro\Desktop\3 año\6 ciclo\ATISF\Proyecto_Hotel\Proyecto_Hotel\obj\Debug\Proyecto_Hotel.Properties.Resources.resources
 C:\Users\Alejandro\Desktop\3 año\6 ciclo\ATISF\Proyecto_Hotel\Proyecto_Hotel\obj\Debug\Proyecto_Hotel.csproj.GenerateResource.cache
 C:\Users\Alejandro\Desktop\3 año\6 ciclo\ATISF\Proyecto_Hotel\Proyecto_Hotel\obj\Debug\Proyecto_Hotel.csproj.CoreCompileInputs.cache
 C:\Users\Alejandro\Desktop\3 año\6 ciclo\ATISF\Proyecto_Hotel\Proyecto_Hotel\obj\Debug\Proyecto_Hotel.exe
 C:\Users\Alejandro\Desktop\3 año\6 ciclo\ATISF\Proyecto_Hotel\Proyecto_Hotel\obj\Debug\Proyecto_Hotel.pdb
+C:\Users\Alejandro\Desktop\3 año\6 ciclo\ATISF\Proyecto_Hotel\Proyecto_Hotel\obj\Debug\Proyecto_Hotel.Form1.resources

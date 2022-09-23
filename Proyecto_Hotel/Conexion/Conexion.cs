@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Proyecto_Hotel.Conexion
 {
-    internal class Conexion
+    internal class conexion
     {
         SqlConnection conex = new SqlConnection();
 
