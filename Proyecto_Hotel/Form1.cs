@@ -81,5 +81,38 @@ namespace Proyecto_Hotel
                                 "teledono: " + data.Telefono);
             }
         }
+
+        /*
+        DataTable tabla = new DataTable();
+        SqlDataAdapter datos;
+        datos = bddml.consulta_empleado_tabla(conex, consulta.cosulta_empleados());
+            datos.Fill(tabla);
+            dataGridView1.DataSource = tabla;
+
+            //cargar el objeto lempleado
+            SqlDataReader datos_insert;
+        datos_insert = bddml.consulta_empleado_llenando_Clase(conex, consulta.cosulta_empleados());
+
+            while (datos_insert.Read())
+            {
+                Empleado empleado = new Empleado();
+        //se puede por orden numerico(0,1,2..) o como lo estoy pidiendo
+        empleado.Id_empleado = Convert.ToUInt16(datos_insert["id_empleado"].ToString());
+                empleado.Nombre = datos_insert["nombre"].ToString();
+        empleado.Direccion = datos_insert["direccion"].ToString();
+        empleado.Telefono = datos_insert["telefono"].ToString();
+        lempleado.Add(empleado);
+            }
+
+            //para mostrarlo 
+            foreach (Empleado data in lempleado)
+            {
+                MessageBox.Show("id: " + data.Id_empleado.ToString() + "\n" +
+                                "nombre: " + data.Nombre + "\n" +
+                                "direccion: " + data.Direccion + "\n" +
+                                "teledono: " + data.Telefono);
+            }
+        */
+
     }
 }
