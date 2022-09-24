@@ -74,6 +74,7 @@ create table reserva
 	fecha_fin date,
 	huesped varchar(50),
 	total float,
+	estado varchar(30),
 	id_habitacion varchar(5),
 	id_cliente int,
 	id_empleado int
